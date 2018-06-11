@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=StardustCoin Wallet
+Comment=StardustCoin wallet
+Exec=stardustcoinwallet %U
+Terminal=false
+Type=Application
+Icon=stardustcoin
+MimeType=x-scheme-handler/stardustcoin;
+Categories=Office;Finance;

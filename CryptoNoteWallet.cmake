@@ -1,0 +1,7 @@
+set(CN_PROJECT_NAME "stardustcoinwallet")
+set(CN_CURRENCY_DISPLAY_NAME "StardustCoin")
+set(CN_CURRENCY_TICKER "Stardust")
+set(CN_VERSION 3.1.0)
+set(CN_MAJOR_VERSION 3)
+set(CN_MINOR_VERSION 1)
+set(CN_PATCH_VERSION 0)
