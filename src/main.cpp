@@ -16,16 +16,19 @@
 // along with Bytecoin.  If not, see <http://www.gnu.org/licenses/>.
 
 #include "Application/WalletApplication.h"
+#include <QTranslator>
 
 using namespace WalletGui;
 
 int main(int argc, char* argv[]) {
   WalletApplication app(argc, argv);
+  QTranslator tsor;           //创建翻译器
+  tsor.load("./stardust_l_cn.qm");    //加载语言包
+  app.installTranslator(&tsor); //安装翻译器
   try {
     if (!app.init()) {
       return 0;
     }
-
     return app.exec();
   } catch (const std::exception& _error) {
     fprintf(stderr, "[Main] Unhandled exception: %s\n", _error.what());

@@ -41,7 +41,7 @@ if (WIN32)
 
   set(Boost_USE_STATIC_LIBS ON)
   set(Boost_USE_STATIC_RUNTIME OFF)
-  set(STATIC OFF)
+  #set(STATIC OFF)
 
   # Get and add-definition for AboutDialog.cpp
   # Set something in case git is not found
@@ -115,6 +115,7 @@ if (WIN32)
       Common
       Crypto
       CryptoNoteCore
+      CryptoNoteProtocol
       Http
       InProcessNode
       Logging
